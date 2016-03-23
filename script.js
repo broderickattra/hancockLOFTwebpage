@@ -6,4 +6,8 @@ $(document).ready(function(){
       $(this).addClass('right-content-expanded', 500);
     }
   });
+
+  $('.nav-button').click(function(){
+    $('.side-menu').slideToggle();
+  });
 });
