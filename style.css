@@ -5,16 +5,15 @@
 #nav-bar {
   background-color:black;
   padding-left: 10px;
-  padding-right:10px;
+  padding-right: 10px;
   background-color: #333333;
-  border-bottom: 1px solid white;
+  opacity: 0.7;
 }
 
 .side-menu {
+  opacity: 0.9;
   display: none;
   box-shadow: 0px 0px 10px;
-  position: relative;
-  z-index: 1;
 }
 
 .jumbotron {
@@ -58,15 +57,21 @@
   box-shadow: 0 0 10px;
   border: 1px solid gray;
   cursor: pointer;
+  content:url("images/ShareButtonUp.png");
+  -webkit-transition: background-color 600ms;
+  transition: background-color 600ms;
 }
 
-#submit-jumbo-div img {
-  margin: auto;
-  width: 400px;
-  height: auto;
-}
 .share-btn-div:hover {
-  content:url("images/ShareButtonOver.png");
+  background-color: rgba(255,255,255,0.5);
+}
+
+.leave {
+  background-color: none;
+}
+
+.enter {
+  background-color: rgba(255,255,255,0.5);
 }
 
 .sub-section {

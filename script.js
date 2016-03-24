@@ -10,4 +10,11 @@ $(document).ready(function(){
   $('.nav-button').click(function(){
     $('.side-menu').slideToggle(350);
   });
+
+  $('.share-btn-div').mouseenter(function(){
+    $(this).animate({'background-color': 'rgba(255,255,255,0.5)'}, 'slow');
+  }).mouseleave(function(){
+    $(this).animate({'background-color': 'rgba(255,255,255,0.5)'}, 'slow');
+  });
+
 });
