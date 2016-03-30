@@ -1,4 +1,6 @@
 $(document).ready(function(){
+  insertContent();
+
   $('.sub-section-right-content').click( function(){
     if ($(this).hasClass('right-content-expanded')) {
       $(this).removeClass('right-content-expanded', 500);
@@ -11,10 +13,26 @@ $(document).ready(function(){
     $('.side-menu').slideToggle(350);
   });
 
-  $('.share-btn-div').mouseenter(function(){
-    $(this).animate({'background-color': 'rgba(255,255,255,0.5)'}, 'slow');
-  }).mouseleave(function(){
-    $(this).animate({'background-color': 'rgba(255,255,255,0.5)'}, 'slow');
+  $('#learn-btn').click(function(){
+    goToByScroll('start-content');
   });
-
 });
+
+document.getElementById('main-body').onclick = function(e) {
+    if(e.target != document.getElementById('side-menu')) {
+        $('.side-menu').slideUp(350);
+    }
+}
+
+function goToByScroll(id){
+    id = id.replace("link", "");
+    $('html,body').animate({scrollTop: $("#"+id).offset().top-100}, 'slow');
+}
+
+function insertContent() {
+  $.getJSON( "content.json", function( data ) {
+    $.each( data, function() {
+    $('#start-content').text((data['start_content']));
+    });
+  });
+}

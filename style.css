@@ -36,7 +36,7 @@
 .tagline {
   width: 65%;
   margin: auto;
-  margin-top: 170px;
+  margin-top: 180px;
 }
 
 #tagline-img {
@@ -44,25 +44,25 @@
   height: auto;
 }
 
-.share-btn-wrapper {
+.learn-btn-wrapper {
   margin-top: 50px;
   width: 100%;
   clear:left;
   display:inline-block;
 }
-.share-btn-div {
+.learn-btn-div {
   margin: auto;
   width: 400px;
   border-radius: 5px;
   box-shadow: 0 0 10px;
   border: 1px solid gray;
   cursor: pointer;
-  content:url("images/ShareButtonUp.png");
+  content:url("images/LearnMoreButtonUp.png");
   -webkit-transition: background-color 600ms;
   transition: background-color 600ms;
 }
 
-.share-btn-div:hover {
+.learn-btn-div:hover {
   background-color: rgba(255,255,255,0.5);
 }
 
