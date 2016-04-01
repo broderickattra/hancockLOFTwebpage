@@ -43,6 +43,7 @@ function goToByScroll(id){
 }
 
 function insertHtml() {
+  $('#why-content').load('../includes/_why.html');
   $('#side-menu').load('../includes/_sideMenu.html');
   $('#step-content').load('../includes/_step1.html');
 }
@@ -50,7 +51,7 @@ function insertHtml() {
 function insertContent() {
   $.getJSON( "content.json", function( data ) {
     $.each( data, function() {
-    $('#start-content').text((data['start_content']));
+  //  $('#start-content').text((data['start_content']));
     });
   });
 }

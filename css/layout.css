@@ -11,7 +11,7 @@
 }
 
 .side-menu {
-  opacity: 0.9;
+  opacity: 0.95;
   display: none;
   box-shadow: 0px 0px 10px;
 }
@@ -83,9 +83,10 @@
 }
 
 .full-width-section {
-  width: 100%;
+  width: 90%;
   height: auto;
   height: 400px;
+  margin: auto;
 }
 
 .nav-button {
@@ -143,7 +144,18 @@
   margin: auto;
 }
 
-.step-copy-container {
+.main-copy-container {
+  height: 500px;
+  display: inline-block;
+  column-fill: auto;
+  -webkit-column-fill: auto; /* Chrome, Safari, Opera */
+  -moz-column-fill: auto; /* Firefox */
+  -webkit-column-width: 400px; /* Chrome, Safari, Opera */
+  -moz-column-width: 400px; /* Firefox */
+  column-width: 400px;
+}
+
+.copy-container {
   height: 500px;
   column-fill: auto;
   -webkit-column-fill: auto; /* Chrome, Safari, Opera */
@@ -153,8 +165,16 @@
   column-width: 300px;
 }
 
-.step-copy {
-  padding-top: 0;
-  padding: 10px 0 10px 0;
-  font-size: 18px;
+.quote-container {
+  text-align: center;
+  width: 600px;
+  height: auto;
+}
+
+.left-quote {
+  float: left;
+}
+
+.right-quote {
+  float:right;
 }
