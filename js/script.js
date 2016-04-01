@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  insertHtml();
   insertContent();
 
   $('.sub-section-right-content').click( function(){
@@ -16,6 +17,18 @@ $(document).ready(function(){
   $('#learn-btn').click(function(){
     goToByScroll('start-content');
   });
+
+  $('.nav-wizard li').click(function(){
+    if ($(this).hasClass('active')) {
+      return;
+    } else {
+      $('.nav-wizard li').removeClass('active');
+      $(this).addClass('active');
+      var aID = $(this).find('a').attr('id');
+      var stepHTML = aID + ".html";
+      $('#step-content').load('../includes/'+stepHTML);
+    }
+  });
 });
 
 document.getElementById('main-body').onclick = function(e) {
@@ -27,6 +40,11 @@ document.getElementById('main-body').onclick = function(e) {
 function goToByScroll(id){
     id = id.replace("link", "");
     $('html,body').animate({scrollTop: $("#"+id).offset().top-100}, 'slow');
+}
+
+function insertHtml() {
+  $('#side-menu').load('../includes/_sideMenu.html');
+  $('#step-content').load('../includes/_step1.html');
 }
 
 function insertContent() {

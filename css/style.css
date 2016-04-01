@@ -57,7 +57,7 @@
   box-shadow: 0 0 10px;
   border: 1px solid gray;
   cursor: pointer;
-  content:url("images/LearnMoreButtonUp.png");
+  content:url("../images/LearnMoreButtonUp.png");
   -webkit-transition: background-color 600ms;
   transition: background-color 600ms;
 }
@@ -98,21 +98,19 @@
   width: 100%;
 }
 
-.sub-section-left-content {
-  width: 75%;
+.tech-component-story {
+  width: 100%;
   height: auto;
   height: 400px;
   display: inline-block;
   float: left;
 }
 
-.sub-section-right-content {
-  width: 25%;
+.tech-component-copy {
+  width: 100%;
   height: auto;
   height: 400px;
   display: inline-block;
-  position: absolute;
-  right: 0;
   background-color: black;
   cursor: pointer;
 }
@@ -121,16 +119,42 @@
   width:75%;
 }
 
-.tech-component-copy {
+.sub-section-left-content {
   width: 50%;
   height: auto;
   float: left;
   height: 700px;
 }
 
-.tech-component-case {
+.sub-section-right-content {
   width: 50%;
   height: auto;
   float: right;
   height: 700px;
+}
+
+#steps-tabs {
+  margin: auto;
+  width: 895px;
+}
+
+#step-content {
+  width: 80%;
+  margin: auto;
+}
+
+.step-copy-container {
+  height: 500px;
+  column-fill: auto;
+  -webkit-column-fill: auto; /* Chrome, Safari, Opera */
+  -moz-column-fill: auto; /* Firefox */
+  -webkit-column-width: 300px; /* Chrome, Safari, Opera */
+  -moz-column-width: 300px; /* Firefox */
+  column-width: 300px;
+}
+
+.step-copy {
+  padding-top: 0;
+  padding: 10px 0 10px 0;
+  font-size: 18px;
 }
