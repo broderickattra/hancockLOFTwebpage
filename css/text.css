@@ -11,6 +11,11 @@
   font-family: ProximaNova-LightItalic;
 }
 
+#steps-tabs li {
+  font-size: 20px;
+  font-family: ProximaNova-Regular;
+}
+
 .reference {
   padding-top: 10px;
   padding-bottom: 10px;
