@@ -179,3 +179,24 @@
 .right-quote {
   float:right;
 }
+
+.pros-section {
+  width: 70%;
+  margin: auto;
+}
+
+.pros-item {
+  margin:15px;
+  clear: both;
+  width: auto;
+}
+
+.pros-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.pros-label {
+}

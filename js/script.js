@@ -44,6 +44,8 @@ function goToByScroll(id){
 
 function insertHtml() {
   $('#why-content').load('../includes/_why.html');
+  $('#how-content').load('../includes/_how.html');
+  $('#what-content').load('../includes/_what.html');
   $('#side-menu').load('../includes/_sideMenu.html');
   $('#step-content').load('../includes/_step1.html');
 }
