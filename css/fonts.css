@@ -1,58 +1,58 @@
 @font-face {
   font-family: ProximaNova-Black;
-  src: url("fonts/ProximaNova-Black.otf") format("opentype");
+  src: url("../fonts/ProximaNova-Black.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-Bold;
   font-weight: bold;
-  src: url("fonts/ProximaNova-Bold.otf") format("opentype");
+  src: url("../fonts/ProximaNova-Bold.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-BoldItalic;
   font-weight: bold;
-  src: url("fonts/ProximaNova-BoldIt.otf") format("opentype");
+  src: url("../fonts/ProximaNova-BoldIt.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-Extrabold;
   font-weight: bold;
-  src: url("fonts/ProximaNova-Extrabold.otf") format("opentype");
+  src: url("../fonts/ProximaNova-Extrabold.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-Light;
   font-weight: bold;
-  src: url("fonts/ProximaNova-Light.otf") format("opentype");
+  src: url("../fonts/ProximaNova-Light.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-LightItalic;
   font-weight: bold;
-  src: url("fonts/ProximaNova-LightItalic.otf") format("opentype");
+  src: url("../fonts/ProximaNova-LightItalic.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-Italic;
   font-weight: bold;
-  src: url("fonts/ProximaNova-RegItalic.otf") format("opentype");
+  src: url("../fonts/ProximaNova-RegItalic.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-Regular;
   font-weight: bold;
-  src: url("fonts/ProximaNova-Regular.otf") format("opentype");
+  src: url("../fonts/ProximaNova-Regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-Semibold;
   font-weight: bold;
-  src: url("fonts/ProximaNova-Semibold.otf") format("opentype");
+  src: url("../fonts/ProximaNova-Semibold.otf") format("opentype");
 }
 
 @font-face {
   font-family: ProximaNova-SemiboldItalic;
   font-weight: bold;
-  src: url("fonts/ProximaNova-SemiboldItalic.otf") format("opentype");
+  src: url("../fonts/ProximaNova-SemiboldItalic.otf") format("opentype");
 }

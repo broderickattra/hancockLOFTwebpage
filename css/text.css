@@ -1,16 +1,40 @@
 .copy {
   padding-top: 0;
   padding: 10px 0 10px 0;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: ProximaNova-Regular;
 }
 
 .quote {
   font-size: 30px;
   font-style: italic;
+  font-family: ProximaNova-LightItalic;
 }
 
 .reference {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 20px;
+  font-family: ProximaNova-Light;
+}
+
+.dramatic-header {
+  font-size: 35px;
+  font-family: ProximaNova-Light;
+}
+
+.blockchain {
+  color: blue;
+  text-transform: uppercase;
+  font-family: ProximaNova-Black;
+}
+
+.bold {
+  font-family: ProximaNova-Bold;
+}
+
+.pros-label {
+  font-family: ProximaNova-Bold;
+  font-size: 25px;
+  padding-left: 50px;
 }
