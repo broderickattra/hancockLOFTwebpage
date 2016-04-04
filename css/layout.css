@@ -28,7 +28,6 @@
 
 .tagline-wrapper {
   margin: auto;
-  height: 100%;
   width: 100%;
   position: absolute;
 }
@@ -85,7 +84,6 @@
 .full-width-section {
   width: 90%;
   height: auto;
-  height: 400px;
   margin: auto;
 }
 
@@ -121,17 +119,19 @@
 }
 
 .sub-section-left-content {
-  width: 50%;
+  width: 45%;
   height: auto;
   float: left;
-  height: 700px;
+  display: inline-block;
+  margin: auto;
 }
 
 .sub-section-right-content {
-  width: 50%;
+  width: 45%;
+  display: inline-block;
   height: auto;
   float: right;
-  height: 700px;
+  margin: auto;
 }
 
 #steps-tabs {
@@ -167,8 +167,9 @@
 
 .quote-container {
   text-align: center;
-  width: 600px;
+  width: auto;
   height: auto;
+  display:inline-block;
 }
 
 .left-quote {
