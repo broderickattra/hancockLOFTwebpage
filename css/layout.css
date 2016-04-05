@@ -158,6 +158,7 @@
 
 .copy-container {
   height: 500px;
+  width:50%;
   column-fill: auto;
   -webkit-column-fill: auto; /* Chrome, Safari, Opera */
   -moz-column-fill: auto; /* Firefox */
