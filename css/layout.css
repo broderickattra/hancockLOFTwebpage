@@ -222,10 +222,17 @@
 }
 
 .what-bckgrnd-img-2 {
-  background: url('../images/Room_Bckgrnd_2.png');
-  background-repeat: no-repeat;
-  -webkit-background-size: 100%; /* For WebKit*/
-  -moz-background-size: 100%;    /* Mozilla*/
-  -o-background-size: 100%;      /* Opera*/
-  background-size: 100%;
+  background: url('../images/Room_Bckgrnd_2.png') no-repeat center center fixed;;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#what-img {
+  height:600px;
+  margin:auto;
+  display: inline-block;
+  float:right;
+  margin-right: 10px;
 }
