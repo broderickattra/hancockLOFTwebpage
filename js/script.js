@@ -44,13 +44,15 @@ function goToByScroll(id){
 }
 
 function insertHtml() {
+  $('#side-menu').load('../includes/_sideMenu.html');
   $('#why-content').load('../includes/_why.html');
   $('#how-content').load('../includes/_how.html');
   $('#what-content').load('../includes/_what.html');
-  $('#side-menu').load('../includes/_sideMenu.html');
+  $('#_stepIntro').load('../includes/_stepIntro.html');
   $('#_step1').load('../includes/_step1.html');
   $('#_step2').load('../includes/_step2.html');
   $('#_step3').load('../includes/_step3.html');
+  $('#_stepOutro').load('../includes/_stepOutro.html');
 }
 
 function insertContent() {

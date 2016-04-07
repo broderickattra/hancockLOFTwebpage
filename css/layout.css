@@ -34,6 +34,12 @@
   height: auto;
 }
 
+.outro-copy {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
 .tagline-wrapper {
   margin: auto;
   width: 100%;
