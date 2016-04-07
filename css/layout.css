@@ -236,3 +236,24 @@
   float:right;
   margin-right: 10px;
 }
+
+.step-div {
+  width: 80%;
+  margin:auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.step-container {
+  display: inline-block;
+  margin:auto;
+  width: 80%;
+}
+
+.step-icon {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background-color: black;
+  display: inline-block;
+}

@@ -17,7 +17,7 @@ $(document).ready(function(){
   $('#learn-btn').click(function(){
     goToByScroll('start-content');
   });
-
+/*
   $('.nav-wizard li').click(function(){
     if ($(this).hasClass('active')) {
       return;
@@ -29,6 +29,7 @@ $(document).ready(function(){
       $('#step-content').load('../includes/'+stepHTML);
     }
   });
+*/
 });
 
 document.getElementById('main-body').onclick = function(e) {
@@ -47,7 +48,8 @@ function insertHtml() {
   $('#how-content').load('../includes/_how.html');
   $('#what-content').load('../includes/_what.html');
   $('#side-menu').load('../includes/_sideMenu.html');
-  $('#step-content').load('../includes/_step1.html');
+  $('#_step1').load('../includes/_step1.html');
+  $('#_step2').load('../includes/_step2.html');
 }
 
 function insertContent() {
