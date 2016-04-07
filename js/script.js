@@ -50,6 +50,7 @@ function insertHtml() {
   $('#side-menu').load('../includes/_sideMenu.html');
   $('#_step1').load('../includes/_step1.html');
   $('#_step2').load('../includes/_step2.html');
+  $('#_step3').load('../includes/_step3.html');
 }
 
 function insertContent() {
