@@ -17,19 +17,6 @@ $(document).ready(function(){
   $('#learn-btn').click(function(){
     goToByScroll('start-content');
   });
-/*
-  $('.nav-wizard li').click(function(){
-    if ($(this).hasClass('active')) {
-      return;
-    } else {
-      $('.nav-wizard li').removeClass('active');
-      $(this).addClass('active');
-      var aID = $(this).find('a').attr('id');
-      var stepHTML = aID + ".html";
-      $('#step-content').load('../includes/'+stepHTML);
-    }
-  });
-*/
 });
 
 document.getElementById('main-body').onclick = function(e) {
@@ -53,6 +40,9 @@ function insertHtml() {
   $('#_step2').load('../includes/_step2.html');
   $('#_step3').load('../includes/_step3.html');
   $('#_stepOutro').load('../includes/_stepOutro.html');
+  $('#_erpExample').load('../includes/_erpExample.html');
+  $('#_geekOut').load('../includes/_geekOut.html');
+  $('#_callToAction').load('../includes/_callToAction.html');
 }
 
 function insertContent() {

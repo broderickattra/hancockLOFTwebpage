@@ -40,6 +40,18 @@
   column-count: 2;
 }
 
+.what-copy-single {
+  -webkit-column-count: 1; /* Chrome, Safari, Opera */
+  -moz-column-count: 1; /* Firefox */
+  column-count: 1;
+}
+
+.what-copy-double {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
 .tagline-wrapper {
   margin: auto;
   width: 100%;
@@ -211,6 +223,11 @@
   background-color: black;
 }
 
+#what-img {
+  width: 100%;
+  box-shadow: 0px 0px 10px;
+}
+
 .how-bckgrnd-img {
   background: url('../images/Block_Bckgrnd.png') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -219,7 +236,7 @@
   background-size: cover;
 }
 
-.what-bckgrnd-img-1 {
+.room-bckgrnd-img-1 {
   background: url('../images/Room_Bckgrnd_1.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -227,7 +244,7 @@
   background-size: cover;
 }
 
-.what-bckgrnd-img-2 {
+.room-bckgrnd-img-2 {
   background: url('../images/Room_Bckgrnd_2.png') no-repeat center center fixed;;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -253,7 +270,6 @@
 .step-container {
   display: inline-block;
   margin:auto;
-  width: 80%;
 }
 
 .step-icon {
@@ -262,4 +278,29 @@
   border-radius: 100%;
   background-color: black;
   display: inline-block;
+}
+
+.drop-down-div {
+  height: 200px;
+  width: 400px;
+  border-radius:10px;
+  padding:10px;
+  margin:auto;
+  cursor: pointer;
+}
+
+#drop-down-img {
+  height: 100%;
+  width: auto;
+}
+
+.resource-cell {
+  padding:25px;
+}
+
+.resource-rect {
+  margin: auto;
+  background-color: black;
+  height: 250px;
+  width: 350px;
 }

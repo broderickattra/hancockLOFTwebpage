@@ -5,6 +5,10 @@
   font-family: ProximaNova-Regular;
 }
 
+.small-copy {
+  font-size: 20px;
+}
+
 .quote {
   font-size: 30px;
   font-style: italic;
@@ -24,9 +28,13 @@
 }
 
 .dramatic-header {
-  font-size: 35px;
+  font-size: 2.7em;
   font-family: ProximaNova-Light;
   line-height: 80%;
+}
+
+.jumbo-header {
+  font-size: 45px;
 }
 
 .blockchain {
