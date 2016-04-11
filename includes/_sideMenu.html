@@ -1,14 +1,30 @@
 <div class="collection side-menu">
   <p class="collection-item" style="text-align:center"><strong>Introduction</strong></p>
-  <a href="#!" class="collection-item">What is blockchain?</a>
-  <a href="#!" class="collection-item">Why should you care?</a>
-  <a href="#!" class="collection-item">What are its benefits?</a>
-  <p class="collection-item" style="text-align:center"><strong>Blockchain Components</strong></p>
-  <a href="#!" class="collection-item">Ledger</a>
-  <a href="#!" class="collection-item">Transaction</a>
-  <a href="#!" class="collection-item">Validation</a>
-  <a href="#!" class="collection-item">Redistribution</a>
-  <a href="#!" class="collection-item">Blockchain</a>
-  <p class="collection-item" style="text-align:center"><strong>Actions</strong></p>
-  <a href="#!" class="collection-item">Suggestion Box</a>
+  <a id="why" class="collection-item" style="cursor:pointer">Why should you care?</a>
+  <a id="how" class="collection-item" style="cursor:pointer">What are its benefits?</a>
+  <a id="what" class="collection-item" style="cursor:pointer">What is blockchain?</a>
+  <p class="collection-item" style="text-align:center"><strong>Blockchain Steps</strong></p>
+  <a id="stepsIntro" class="collection-item" style="cursor:pointer">Buying a house using blockchain</a>
+  <a id="step1" class="collection-item" style="cursor:pointer">STEP 1: Request for transaction</a>
+  <a id="step2" class="collection-item" style="cursor:pointer">STEP 2: Validation of the transaction</a>
+  <a id="step3" class="collection-item" style="cursor:pointer">STEP 3: Completion of the transaction</a>
+  <a id="security" class="collection-item" style="cursor:pointer">Blockchain security</a>
+  <p class="collection-item" style="text-align:center"><strong>More</strong></p>
+  <a id="callToAction" class="collection-item" style="cursor:pointer">Call to action</a>
+  <a id="moreResources" class="collection-item" style="cursor:pointer">More resources</a>
 </div>
+
+<script>
+$(document).ready(function(){
+  $('#why').click(function(){ $('html,body').animate({scrollTop: $("#why-content").offset().top-100}, 'slow'); });
+  $('#how').click(function(){ $('html,body').animate({scrollTop: $("#how-content").offset().top-100}, 'slow'); });
+  $('#what').click(function(){ $('html,body').animate({scrollTop: $("#what-content").offset().top-100}, 'slow'); });
+  $('#stepsIntro').click(function(){ $('html,body').animate({scrollTop: $("#_stepIntro").offset().top-100}, 'slow'); });
+  $('#step1').click(function(){ $('html,body').animate({scrollTop: $("#_step1").offset().top-100}, 'slow'); });
+  $('#step2').click(function(){ $('html,body').animate({scrollTop: $("#_step2").offset().top-100}, 'slow'); });
+  $('#step3').click(function(){ $('html,body').animate({scrollTop: $("#_step3").offset().top-100}, 'slow'); });
+  $('#security').click(function(){ $('html,body').animate({scrollTop: $("#_stepOutro").offset().top-100}, 'slow'); });
+  $('#callToAction').click(function(){ $('html,body').animate({scrollTop: $("#_callToAction").offset().top-100}, 'slow'); });
+  $('#moreResources').click(function(){ $('html,body').animate({scrollTop: $("#_geekOut").offset().top-100}, 'slow'); });
+});
+</script>
