@@ -52,6 +52,22 @@
   column-count: 2;
 }
 
+.button-div {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:15px;
+  width:300px;
+  margin: auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.double-column {
+  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+  -moz-column-count: 2; /* Firefox */
+  column-count: 2;
+}
+
 .tagline-wrapper {
   margin: auto;
   width: 100%;
