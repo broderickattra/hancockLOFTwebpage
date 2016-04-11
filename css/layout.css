@@ -294,8 +294,22 @@
   width: auto;
 }
 
+.geek-out {
+  background-color: #e8e8e8;
+  padding: 50px;
+}
+
+.learn-more-btn {
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  padding:10px;
+  cursor: pointer;
+}
 .resource-cell {
   padding:25px;
+  display: inline-block;
 }
 
 .resource-rect {

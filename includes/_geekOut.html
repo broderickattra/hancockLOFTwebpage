@@ -1,46 +1,39 @@
-<div>
-  <table style="margin-top:25px">
-    <tr>
-      <td colspan="3" style="text-align:center">
-        <div class="dramatic-header jumbo-header">Wanna <span class="bold">GEEK OUT</span> on <span class="blockchain">BLOCKCHAIN</span>?</div>
-        <div class="copy" style="font-size:30px">Check out these websites and videos:</div>
-      </td>
-    </tr>
-    <tr><td></td></tr>
-    <tr>
-      <td class="resource-cell">
+<div class="full-width-section">
+  <div class="dramatic-header jumbo-header" style="margin:auto; text-align:center">
+    Wanna <span class="bold">GEEK OUT</span> on <span class="blockchain">BLOCKCHAIN</span>?
+    <div id="expand-geekout-btn" class="learn-more-btn">LEARN MORE</div>
+  </div>
+  <div id="geekOutResources" style="margin-top:25px; display:none">
+    <div style="margin:auto; width:90%">
+      <div class="resource-cell">
         <div class="resource-rect"></div>
-      </td>
-      <td class="resource-cell">
-        <div class="resource-rect"></div>
-      </td>
-      <td class="resource-cell">
-        <div class="resource-rect"></div>
-      </td>
-    </tr>
+      </div>
 
-    <tr>
-      <td class="resource-cell">
+      <div class="resource-cell">
         <div class="resource-rect"></div>
-      </td>
-      <td class="resource-cell">
-        <div class="resource-rect"></div>
-      </td>
-      <td class="resource-cell">
-        <div class="resource-rect"></div>
-      </td>
-    </tr>
+      </div>
 
-    <tr>
-      <td class="resource-cell">
+      <div class="resource-cell">
         <div class="resource-rect"></div>
-      </td>
-      <td class="resource-cell">
+      </div>
+      <div class="resource-cell">
         <div class="resource-rect"></div>
-      </td>
-      <td class="resource-cell">
+      </div>
+
+      <div class="resource-cell">
         <div class="resource-rect"></div>
-      </td>
-    </tr>
-  </table>
+      </div>
+
+      <div class="resource-cell">
+        <div class="resource-rect"></div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<script>
+$('#expand-geekout-btn').click(function() {
+  $('#geekOutResources').slideToggle(500);
+  $('html,body').animate({scrollTop: $("#geekOutResources").offset().top-150}, 'slow');
+});
+</script>
