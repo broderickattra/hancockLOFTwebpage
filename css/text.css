@@ -3,6 +3,7 @@
   padding: 10px 0 10px 0;
   font-size: 25px;
   font-family: ProximaNova-Regular;
+  color:#434343;
 }
 
 .small-copy {
@@ -38,7 +39,7 @@
 }
 
 .blockchain {
-  color: #5899d0;
+  color: #039bd3;
   text-transform: uppercase;
   font-family: ProximaNova-Black;
 }
@@ -51,4 +52,9 @@
   font-family: ProximaNova-Bold;
   font-size: 25px;
   padding-left: 50px;
+}
+
+
+.resource-copy {
+  font-size: 1.5em;
 }
