@@ -14,20 +14,12 @@ $(document).ready(function(){
     $('.side-menu').slideToggle(350);
   });
 
-  $('#learn-btn').click(function(){
-    goToByScroll('start-content');
-  });
 });
 
 document.getElementById('main-body').onclick = function(e) {
     if(e.target != document.getElementById('side-menu')) {
         $('.side-menu').slideUp(350);
     }
-}
-
-function goToByScroll(id){
-    id = id.replace("link", "");
-    $('html,body').animate({scrollTop: $("#"+id).offset().top-100}, 'slow');
 }
 
 function insertHtml() {

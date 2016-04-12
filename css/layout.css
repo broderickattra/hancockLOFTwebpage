@@ -93,12 +93,9 @@
 }
 .learn-btn-div {
   margin: auto;
-  width: 400px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px;
-  border: 1px solid gray;
+  width: 350px;
+  box-shadow: 0 0 5px;
   cursor: pointer;
-  content:url("../images/LearnMoreButtonUp.png");
   -webkit-transition: background-color 600ms;
   transition: background-color 600ms;
 }
@@ -329,7 +326,6 @@
 }
 
 .resource-rect {
-  margin: auto;
   background-color: black;
   height: 250px;
   width: 350px;
