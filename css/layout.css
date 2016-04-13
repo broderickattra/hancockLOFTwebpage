@@ -328,7 +328,14 @@
 
 .resource-rect {
   background-color: black;
-  height: 250px;
+  height: 200px;
   width: 350px;
   box-shadow: 0px 0px 5px;
+  cursor: pointer;
+  -webkit-transition: box-shadow 600ms;
+  transition: box-shadow 600ms;
+}
+
+.resource-rect:hover {
+  box-shadow: 0px 0px 1px;
 }
