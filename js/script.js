@@ -40,7 +40,23 @@ function insertHtml() {
 function insertContent() {
   $.getJSON( "content.json", function( data ) {
     $.each( data, function() {
-  //  $('#start-content').text((data['start_content']));
+      //load why section text
+      var why_data = data['why_content'];
+      $('#why-header').html(why_data['header']);
+      $('#why-copy').html(why_data['copy']);
+      //how content
+      var how_data = data['how_content'];
+      $('#secure-header').html(how_data['secure_header']);
+      $('#secure-copy').html(how_data['secure_copy']);
+      $('#fast-header').html(how_data['fast_header']);
+      $('#fast-copy').html(how_data['fast_copy']);
+      $('#transparent-header').html(how_data['transparent_header']);
+      $('#transparent-copy').html(how_data['transparent_copy']);
+      //load what content
+      var what_data = data['what_content'];
+      $('#what-header').html(what_data['header']);
+      $('#what-section-one').html(what_data['section_1']);
+      $('#what-section-two').html(what_data['section_2']);
     });
   });
 }
