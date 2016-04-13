@@ -30,6 +30,16 @@
   margin: auto;
 }
 
+.close-btn {
+  content:url('../images/close_button.png');
+  width: 25px;
+  height: 25px;
+  margin: 50px;
+  float:left;
+  cursor: pointer;
+  position: fixed;
+}
+
 
 @media (min-width: 1500px) {
   .custom-side-menu {

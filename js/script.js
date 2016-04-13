@@ -11,14 +11,14 @@ $(document).ready(function(){
   });
 
   $('.nav-button').click(function(){
-    $('.side-menu').slideToggle(350);
+    $('#side-menu').slideDown(350);
   });
 
 });
 
 document.getElementById('main-body').onclick = function(e) {
     if(e.target != document.getElementById('side-menu')) {
-        $('.side-menu').slideUp(350);
+        $('#side-menu').slideUp(350);
     }
 }
 

@@ -1,35 +1,37 @@
-
-  <div class="menu-section">
-    <p class="custom-collection-item copy" style="text-align:center"><strong>Introduction</strong></p>
-    <div id="why" class="custom-collection-item copy" style="cursor:pointer;color:white">Why should you care?</div>
-    <div id="how" class="custom-collection-item copy" style="cursor:pointer;color:white">What are its benefits?</div>
-    <div id="what" class="custom-collection-item copy" style="cursor:pointer;color:white">What is blockchain?</div>
-  </div>
-  <div class="menu-section">
-    <p class="custom-collection-item copy" style="text-align:center"><strong>Blockchain Steps</strong></p>
-    <div id="stepsIntro" class="custom-collection-item copy" style="cursor:pointer;color:white">Buying a house using blockchain</div>
-    <div id="step1" class="custom-collection-item copy" style="cursor:pointer;color:white">STEP 1: Request for transaction</div>
-    <div id="step2" class="custom-collection-item copy" style="cursor:pointer;color:white">STEP 2: Validation of the transaction</div>
-    <div id="step3" class="custom-collection-item copy" style="cursor:pointer;color:white">STEP 3: Completion of the transaction</div>
-    <div id="security" class="custom-collection-item copy" style="cursor:pointer;color:white">Blockchain security</div>
-  </div>
-  <div class="menu-section">
-    <p class="collection-item copy" style="text-align:center"><strong>More</strong></p>
-    <div id="callToAction" class="custom-collection-item copy" style="cursor:pointer;color:white">Call to action</div>
-    <div id="moreResources" class="custom-collection-item copy" style="cursor:pointer;color:white">More resources</div>
-  </div>
-
+  <div class="custom-side-menu" id="menu-content">
+    <div class="close-btn"></div>
+    <div class="menu-section">
+      <p class="custom-collection-item copy" style="text-align:center"><strong>Introduction</strong></p>
+      <div id="why" class="custom-collection-item copy" style="cursor:pointer;color:white">Why should you care?</div>
+      <div id="how" class="custom-collection-item copy" style="cursor:pointer;color:white">What are its benefits?</div>
+      <div id="what" class="custom-collection-item copy" style="cursor:pointer;color:white">What is blockchain?</div>
+    </div>
+    <div class="menu-section">
+      <p class="custom-collection-item copy" style="text-align:center"><strong>Blockchain Steps</strong></p>
+      <div id="stepsIntro" class="custom-collection-item copy" style="cursor:pointer;color:white">Buying a house using blockchain</div>
+      <div id="step1" class="custom-collection-item copy" style="cursor:pointer;color:white">STEP 1: Request for transaction</div>
+      <div id="step2" class="custom-collection-item copy" style="cursor:pointer;color:white">STEP 2: Validation of the transaction</div>
+      <div id="step3" class="custom-collection-item copy" style="cursor:pointer;color:white">STEP 3: Completion of the transaction</div>
+      <div id="security" class="custom-collection-item copy" style="cursor:pointer;color:white">Blockchain security</div>
+    </div>
+    <div class="menu-section">
+      <p class="collection-item copy" style="text-align:center"><strong>More</strong></p>
+      <div id="callToAction" class="custom-collection-item copy" style="cursor:pointer;color:white">Call to action</div>
+      <div id="moreResources" class="custom-collection-item copy" style="cursor:pointer;color:white">More resources</div>
+    </div>
+</div>
 <script>
 $(document).ready(function(){
-  $('#why').click(function(){ $('html,body').animate({scrollTop: $("#why-content").offset().top-100}, 'slow'); });
-  $('#how').click(function(){ $('html,body').animate({scrollTop: $("#how-content").offset().top-100}, 'slow'); });
-  $('#what').click(function(){ $('html,body').animate({scrollTop: $("#what-content").offset().top-100}, 'slow'); });
-  $('#stepsIntro').click(function(){ $('html,body').animate({scrollTop: $("#_stepIntro").offset().top-100}, 'slow'); });
-  $('#step1').click(function(){ $('html,body').animate({scrollTop: $("#_step1").offset().top-100}, 'slow'); });
-  $('#step2').click(function(){ $('html,body').animate({scrollTop: $("#_step2").offset().top-100}, 'slow'); });
-  $('#step3').click(function(){ $('html,body').animate({scrollTop: $("#_step3").offset().top-100}, 'slow'); });
-  $('#security').click(function(){ $('html,body').animate({scrollTop: $("#_stepOutro").offset().top-100}, 'slow'); });
-  $('#callToAction').click(function(){ $('html,body').animate({scrollTop: $("#_callToAction").offset().top-100}, 'slow'); });
-  $('#moreResources').click(function(){ $('html,body').animate({scrollTop: $("#_geekOut").offset().top-100}, 'slow'); });
+  $('.close-btn').click(function() { $('#side-menu').slideUp(350); });
+  $('#why').click(function(){ $('html,body').animate({scrollTop: $("#why-content").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#how').click(function(){ $('html,body').animate({scrollTop: $("#how-content").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#what').click(function(){ $('html,body').animate({scrollTop: $("#what-content").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#stepsIntro').click(function(){ $('html,body').animate({scrollTop: $("#_stepIntro").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#step1').click(function(){ $('html,body').animate({scrollTop: $("#_step1").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#step2').click(function(){ $('html,body').animate({scrollTop: $("#_step2").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#step3').click(function(){ $('html,body').animate({scrollTop: $("#_step3").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#security').click(function(){ $('html,body').animate({scrollTop: $("#_stepOutro").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#callToAction').click(function(){ $('html,body').animate({scrollTop: $("#_callToAction").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
+  $('#moreResources').click(function(){ $('html,body').animate({scrollTop: $("#_geekOut").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
 });
 </script>
