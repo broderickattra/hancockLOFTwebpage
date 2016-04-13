@@ -15,5 +15,42 @@
     "header" : "So how does <span class='blockchain'>blockchain</span> work under the hood?",
     "section_1" : "<span class='bold'>Think of a <span class='blockchain' style='text-transform:lowercase'>blockchain</span> as a record book that keeps track of every transaction made within a network.</span> As new transactions occur, they are validated and then added to the record book.<br></br>So far that just sounds like any other database, right? Well, what makes Blockchain so revolutionary is that it’s <strong>distributed</strong> as opposed to centralized or decentralized.",
     "section_2" : "When a change is made, it’s communicated to the rest of the network so that every participant has a copy of the most up-to-date record book.<br></br>This makes it a very secure and trustworthy system, without the need for a middleman with singular authority over the database.<br></br>By being completely distributed and transparent, blockchain databases create trust in a trestless environment."
+  },
+  "steps_intro" : {
+    "header" : "Buying a house using <span class='blockchain'>Blockchain</span>",
+    "tagline" : "<em>Blockchain technology can make the process of buying a house faster and easier</em>",
+    "copy" : "Buying a house can be incredibly stressful and complicated. From banks, agents, lawyers, title companies, to notaries, there are so many middlemen and so much paperwork needed to close on the sale.<br></br> Let’s take a look at how blockchain can be applied to this process…"
+  },
+  "step_1" : {
+    "header" : "<span class='blockchain'>STEP 1:</span> Request for transaction",
+    "copy" : "Alice has agreed to buy Bob’s house and now they are ready for the closing process—which includes confirming that Bob owns the house."
+  },
+  "step_2" : {
+    "header" : "<span class='blockchain'>STEP 2:</span> Validation of the transaction",
+    "copy" : "Alice and Bob’s agreement is communicated out to the blockchain network. Without blockchain, middlemen from a title company would need to be involved to prove Bob’s ownership. But thanks to blockchain Bob’s proof of ownership was recorded to the blockchain ledger when he originally purchased the house.<br></br>The records on blockchain are securely distributed and transparent to all participants in the network. As a result, the network itself can (automagically) validate that Bob is indeed the owner."
+  },
+  "step_3" : {
+    "header" : "<span class='blockchain'>STEP 3:</span> Completion of the transaction",
+    "copy" : "If the agreement is validated, Bob’s home is transferred into Alice’s name. This information gets recorded and distributed throughout the blockchain network. When Alice wants to sell her house in the future, the blockchain can prove her ownership, again removing the need for a middleman."
+  },
+  "step_outro" : {
+    "header" : "This process makes <span class='blockchain' style='text-transform:lowercase'>blockchain</span> incredibly secure.",
+    "copy" : "Everyone has a copy of the most up-to-date blockchain ledger on their computer. Blockchain records cannot be changed or deleted. If someone were to hack a single user’s ledger and make a change, that change would have to be reflected in every following ledger. In order for a blockchain database to be compromised, a hacker would have to hack every user’s copy of the ledger at the same time. <br></br> This is a monumental—and practically impossible—endeavor. <br></br> It also means that the more participants in a given blockchain network, the more secure that blockchain is. <br></br> If Bob had tampered with the ledger to make it look like he was the owner of the house, when in fact he was not, the rest of the network would reject the sale of the house because he was not the rightful owner, per their copy of the ledger."
+  },
+  "erp_example" : {
+    "header": "How we're using <span class='blockchain'>BLOCKCHAIN</span> with our Employee Recognition Program"
+  },
+  "contact_us" : {
+    "header" : "Have a <span class='blockchain'>blockchain</span> idea? Have any questions?",
+    "copy" : "In <span class='emphasis'>your</span> day-to-day work at JH/Manulife, what processes do you think would be improved through the implementation of blockchain? <br></br> Can you think of any processes you are involved with that require multiple people to authorize a transaction/transfer of assets? How about reconciling financial information across systems? <br></br> What are some innovative ways to use blockchain to improve the speed of our services to customers or internal processes? What about processes involved in vetting identity and ownership of assets?"
+  },
+  "geek_out" : {
+    "header" : "Wanna <span class='bold'>GEEK OUT</span> on <span class='blockchain'>BLOCKCHAIN</span>?",
+    "link_1" : "The Tech Industry <br> “Game Changer”",
+    "link_2" : "What is Blockchain? <br> Why Should You Care?",
+    "link_3" : "Blockchain Back-Office <br> Block-Buster",
+    "link_4" : "What is Blockchain? <br> World Economic Forum",
+    "link_5" : "PWC Global FinTech Report <br> Highlighting Blockchain",
+    "link_6" : "Blockchain Technology <br> Video"
   }
 }
