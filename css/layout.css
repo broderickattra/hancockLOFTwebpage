@@ -28,6 +28,15 @@
 
 .custom-side-menu div {
   margin: auto;
+  -webkit-transition: color 600ms;
+  transition: color 600ms;
+  font-size: 25px;
+  font-family: ProximaNova-Regular;
+  color:white;
+}
+
+.custom-collection-item:hover {
+  color: #999999;
 }
 
 .close-btn {
