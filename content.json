@@ -27,7 +27,7 @@
   },
   "step_2" : {
     "header" : "<span class='blockchain'>STEP 2:</span> Validation of the transaction",
-    "copy" : "Alice and Bob’s agreement is communicated out to the blockchain network. Without blockchain, middlemen from a title company would need to be involved to prove Bob’s ownership. But thanks to blockchain Bob’s proof of ownership was recorded to the blockchain ledger when he originally purchased the house.<br></br>The records on blockchain are securely distributed and transparent to all participants in the network. As a result, the network itself can (automagically) validate that Bob is indeed the owner."
+    "copy" : "Alice and Bob’s agreement is communicated out to the blockchain network. Without blockchain, middlemen from a title company would need to be involved to prove Bob’s ownership. But thanks to blockchain, Bob’s proof of ownership was recorded to the blockchain ledger when he originally purchased the house.<br></br>The records on blockchain are securely distributed and transparent to all participants in the network. As a result, the network itself can (automagically) validate that Bob is indeed the owner."
   },
   "step_3" : {
     "header" : "<span class='blockchain'>STEP 3:</span> Completion of the transaction",
