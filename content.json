@@ -1,11 +1,11 @@
 {
   "why_content" : {
     "header" : "<span class='blockchain'>Blockchain</span> is a FINANCIAL INDUSTRY DISRUPTOR.",
-    "copy" : "Blockchian could fundamentally change how we buy and sell our homes, cars, and other assets. Buying and selling currently requires lawyers, banks, and third parties to validate and assign ownership.<br></br>Blockchain technology changes all of that by enabling fast and secure transactions without the need for a middleman."
+    "copy" : "Blockchain could fundamentally change how we buy and sell our homes, cars, and other assets. Buying and selling currently requires lawyers, banks, and third parties to validate and assign ownership.<br></br>Blockchain technology changes all of that by enabling fast and secure transactions without the need for a middleman."
   },
   "how_content" : {
     "secure_header" : "SECURE",
-    "secure_copy" : "Blockchain is decentralized, making it incredibly secure and nearly impossible to tamper with stored records.",
+    "secure_copy" : "Blockchain is distributed, making it incredibly secure and nearly impossible to tamper with stored records.",
     "fast_header" : "FAST",
     "fast_copy" : "Blockchain expedites reconciliation and validation processes by eliminating the need for middlemen.",
     "transparent_header" : "TRANSPARENT",
@@ -14,11 +14,11 @@
   "what_content" : {
     "header" : "So how does <span class='blockchain'>blockchain</span> work under the hood?",
     "section_1" : "<span class='bold'>Think of a <span class='blockchain' style='text-transform:lowercase'>blockchain</span> as a record book that keeps track of every transaction made within a network.</span> As new transactions occur, they are validated and then added to the record book.<br></br>So far that just sounds like any other database, right? Well, what makes Blockchain so revolutionary is that it’s <strong>distributed</strong> as opposed to centralized or decentralized.",
-    "section_2" : "When a change is made, it’s communicated to the rest of the network so that every participant has a copy of the most up-to-date record book.<br></br>This makes it a very secure and trustworthy system, without the need for a middleman with singular authority over the database.<br></br>By being completely distributed and transparent, blockchain databases create trust in a trestless environment."
+    "section_2" : "When a change is made, it’s communicated to the rest of the network so that every participant has a copy of the most up-to-date record book.<br></br>This makes it a very secure system, without the need for a middleman with singular authority over the database.<br></br>By being completely distributed and transparent, blockchain databases create trust in a trustless environment."
   },
   "steps_intro" : {
-    "header" : "Buying a house using <span class='blockchain'>Blockchain</span>",
-    "tagline" : "<em>Blockchain technology can make the process of buying a house faster and easier</em>",
+    "header" : "Buying a house using <span class='blockchain'>Blockchain</span>.",
+    "tagline" : "<em>Blockchain technology can make the process of buying a house faster and easier.</em>",
     "copy" : "Buying a house can be incredibly stressful and complicated. From banks, agents, lawyers, title companies, to notaries, there are so many middlemen and so much paperwork needed to close on the sale.<br></br> Let’s take a look at how blockchain can be applied to this process…"
   },
   "step_1" : {
@@ -27,7 +27,7 @@
   },
   "step_2" : {
     "header" : "<span class='blockchain'>STEP 2:</span> Validation of the transaction",
-    "copy" : "Alice and Bob’s agreement is communicated out to the blockchain network. Without blockchain, middlemen from a title company would need to be involved to prove Bob’s ownership. But thanks to blockchain, Bob’s proof of ownership was recorded to the blockchain ledger when he originally purchased the house.<br></br>The records on blockchain are securely distributed and transparent to all participants in the network. As a result, the network itself can (automagically) validate that Bob is indeed the owner."
+    "copy" : "Alice and Bob’s agreement is communicated out to the blockchain network. Without blockchain, middlemen from a title company would need to be involved to prove Bob’s ownership. But thanks to blockchain, Bob’s proof of ownership was recorded to the blockchain ledger when he originally purchased the house.<br></br>The records on blockchain are securely distributed and transparent to all participants in the network. As a result, the network itself can validate that Bob is indeed the owner."
   },
   "step_3" : {
     "header" : "<span class='blockchain'>STEP 3:</span> Completion of the transaction",
@@ -42,7 +42,7 @@
   },
   "contact_us" : {
     "header" : "Have a <span class='blockchain'>blockchain</span> idea? Have any questions?",
-    "copy" : "In <span class='emphasis'>your</span> day-to-day work at JH/Manulife, what processes do you think would be improved through the implementation of blockchain? <br></br> Can you think of any processes you are involved with that require multiple people to authorize a transaction/transfer of assets? How about reconciling financial information across systems? <br></br> What are some innovative ways to use blockchain to improve the speed of our services to customers or internal processes? What about processes involved in vetting identity and ownership of assets?"
+    "copy" : "In <span class='emphasis'>your</span> day-to-day work at Manulife, what processes do you think would be improved through the implementation of blockchain? <br></br> Can you think of any processes you are involved with that require multiple people to authorize a transaction or transfer of assets? How about reconciling financial information across systems? <br></br> What are some innovative ways to use blockchain to improve the speed of our services to customers or internal processes? What about processes involved in vetting identity and ownership of assets?"
   },
   "geek_out" : {
     "header" : "Wanna <span class='bold'>GEEK OUT</span> on <span class='blockchain'>BLOCKCHAIN</span>?",

@@ -26,6 +26,10 @@
   max-height: 100%;
 }
 
+#side-menu {
+  box-shadow: 0px 0px 10px;
+}
+
 .custom-side-menu div {
   margin: auto;
   -webkit-transition: color 600ms;
@@ -416,6 +420,8 @@
   cursor: pointer;
   -webkit-transition: box-shadow 600ms;
   transition: box-shadow 600ms;
+  border-radius: 2.5px;
+  overflow: hidden;
 }
 
 .resource-rect:hover {
