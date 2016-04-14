@@ -248,6 +248,10 @@
     width:50%;
   }
 
+  #erp-img {
+    content: url("../images/Employee_Recognition_Example_Horizontal.png");
+  }
+
 }
 
 
