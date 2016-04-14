@@ -218,6 +218,24 @@
   margin: auto;
 }
 
+@media (min-width:1000px) {
+  .step-copy {
+    width:50%;
+  }
+
+  #step2-icon {
+    margin-top:150px;
+  }
+
+  #step3-icon {
+    margin-top:35px;
+  }
+
+  #house-img {
+    margin-top: 75px;
+  }
+}
+
 .sub-section-right-content {
   width: 45%;
   display: inline-block;
