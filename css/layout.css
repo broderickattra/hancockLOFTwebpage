@@ -359,6 +359,12 @@
   margin-right: 10px;
 }
 
+#erp-img {
+  width:100%;
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 .step-div {
   width: 80%;
   margin:auto;
@@ -410,6 +416,7 @@
   margin:25px;
   display: inline-block;
   width:350px;
+  vertical-align: top;
 }
 
 .resource-rect {

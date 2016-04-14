@@ -27,10 +27,6 @@ $(document).ready(function(){
 
   $('#security').click(function(){ $('html,body').animate({scrollTop: $("#_stepOutro").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
   $('#callToAction').click(function(){ $('html,body').animate({scrollTop: $("#_callToAction").offset().top-100}, 'slow'); $('#side-menu').slideUp(350);});
-  $('#moreResources').click(function(){
-    $('html,body').animate({scrollTop: $("#_geekOut").offset().top-100}, 'slow');
-    $('#geekOutResources').slideDown(350);
-    $('#side-menu').slideUp(350);
-  });
+  $('#moreResources').click(function(){ $('html,body').animate({scrollTop: $("#_geekOut").offset().top-100}, 'slow'); $('#side-menu').slideUp(350); });
 });
 </script>

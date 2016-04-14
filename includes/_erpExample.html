@@ -5,15 +5,23 @@
     <div id="erp-header" class="dramatic-header" style="margin:auto; text-align:center">
     </div>
     <div style="width:80%;margin:auto">
-    <img id="erp-img" src="../images/Employee_Recognition_Example_Vertical.png" style="width:100%;margin-top:50px"/>
+    <img id="erp-img" src="../images/Employee_Recognition_Example_Vertical.png"/>
   </div>
     <!--<div class="copy small-copy" style="width:30%">Check out how we're using blockchian to power our employee recognition program!</div>-->
   </div>
 
 
 <script>
+var expanded = false;
 $('.drop-down-div').click(function() {
   $('#erp-example-container').slideToggle(500);
+  if (!expanded) {
+    $('#drop-down-img').attr("src", "../images/how_were_using_it_up.png");
+    expanded = true;
+  } else {
+    $('#drop-down-img').attr("src", "../images/how_were_using_it_down.png");
+    expanded = false;
+  }
   $('html,body').animate({scrollTop: $("#erp-example-container").offset().top-150}, 'slow');
 });
 </script>
