@@ -231,10 +231,21 @@
     margin-top:35px;
   }
 
+  #house-copy {
+    width: 50%;
+  }
+
   #house-img {
+    width: 50%;
     margin-top: 75px;
   }
+
+  #boy-on-computer-img {
+    width:50%;
+  }
+
 }
+
 
 .sub-section-right-content {
   width: 45%;
